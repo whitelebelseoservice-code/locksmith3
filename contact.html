@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Apex Locksmith</title>
+<meta name="description" content="Contact Apex Locksmith for 24/7 emergency, residential, automotive and commercial locksmith services.">
+<style>
+:root{--black:#090909;--panel:#111;--gold:#d8ad45;--gold2:#f0c75e;--white:#f7f7f5;--muted:#aaa;--line:#292929}
+*{box-sizing:border-box}body{margin:0;background:var(--black);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+a{text-decoration:none;color:inherit}.container{width:min(1160px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(9,9,9,.96);border-bottom:1px solid #222}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:25px}.logo{font-size:24px;font-weight:800;letter-spacing:.5px}.logo span{color:var(--gold)}
+nav{display:flex;align-items:center;gap:25px;font-size:14px}nav a:hover{color:var(--gold)}.call{background:var(--gold);color:#111;padding:12px 18px;border-radius:5px;font-weight:800}
+.hero{padding:75px 0 65px;background:linear-gradient(90deg,#090909 20%,rgba(9,9,9,.82)),url('https://images.pexels.com/photos/35287856/pexels-photo-35287856.jpeg?auto=compress&cs=tinysrgb&w=1800') center/cover}
+.eyebrow{color:var(--gold);font-size:12px;font-weight:800;letter-spacing:3px}.hero h1{font-size:clamp(42px,6vw,72px);line-height:1.03;margin:12px 0 16px;max-width:700px}.hero p{color:#c6c6c6;max-width:620px;font-size:18px}
+.breadcrumb{margin-top:28px;color:#999;font-size:13px}.breadcrumb span{color:var(--gold)}
+.contact{padding:80px 0}.grid{display:grid;grid-template-columns:1fr 1.25fr;gap:55px}
+h2{font-size:42px;line-height:1.1;margin:10px 0 16px}.intro{color:var(--muted);max-width:520px}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:32px}.card{background:var(--panel);border:1px solid var(--line);padding:23px}.icon{color:var(--gold);font-size:22px}.card small{display:block;color:#888;text-transform:uppercase;letter-spacing:1.5px;margin:7px 0}.card strong{font-size:17px}
+.emergency{margin-top:18px;padding:20px;border-left:3px solid var(--gold);background:#0f0f0f}.emergency b{color:var(--gold)}
+form{background:#111;border:1px solid var(--line);padding:34px}form h3{font-size:27px;margin:0 0 7px}form p{color:#999;margin-top:0}.fields{display:grid;grid-template-columns:1fr 1fr;gap:15px}label{font-size:12px;text-transform:uppercase;letter-spacing:1px;color:#aaa}input,select,textarea{width:100%;margin-top:7px;background:#090909;border:1px solid #303030;color:white;padding:14px;border-radius:3px;font:inherit}textarea{min-height:140px;resize:vertical}.full{grid-column:1/-1}.btn{border:0;background:var(--gold);color:#111;font-weight:900;padding:15px 22px;cursor:pointer;border-radius:3px;margin-top:17px}.note{font-size:12px;color:#777;margin-top:12px}
+.mapwrap{padding:0 0 80px}.map{height:340px;background:#141414;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;text-align:center}.map strong{font-size:22px}.map p{color:#888}.map a{display:inline-block;margin-top:8px;color:var(--gold);font-weight:700}
+.cta{background:linear-gradient(100deg,#c99e37,#f0c75e);color:#111;padding:35px 0}.ctain{display:flex;align-items:center;justify-content:space-between;gap:20px}.cta h3{font-size:30px;margin:0}.cta p{margin:3px 0 0}.ctabtn{background:#111;color:#fff;padding:14px 20px;border-radius:4px;font-weight:800;white-space:nowrap}
+footer{padding:50px 0 25px;background:#060606;border-top:1px solid #222}.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:35px}.foot h4{margin-top:0}.foot p,.foot a{color:#888;font-size:14px}.foot a{display:block;margin:7px 0}.copyright{border-top:1px solid #1e1e1e;margin-top:35px;padding-top:20px;color:#666;font-size:12px}
+@media(max-width:800px){nav{display:none}.grid{grid-template-columns:1fr}.fields,.cards{grid-template-columns:1fr}.full{grid-column:auto}.ctain{display:block}.ctabtn{display:inline-block;margin-top:15px}.foot{grid-template-columns:1fr}.hero{padding:55px 0}}
+
+/* Homepage-matching navigation */
+.links{display:flex;gap:20px;align-items:center;font-size:13px;font-weight:800}.links a:hover{color:var(--gold)}
+.menu{display:none;background:none;border:1px solid #444;color:white;border-radius:8px;padding:8px;font-size:18px;cursor:pointer}
+.dropdown{position:relative}.dropbtn{display:flex;align-items:center;gap:5px;cursor:pointer}.chev{font-size:10px;transition:transform .2s}.dropdown:hover .chev,.dropdown.open .chev{transform:rotate(180deg)}
+.dropdown-menu{position:absolute;top:calc(100% + 20px);right:-10px;width:270px;padding:10px;background:#0d0f13;border:1px solid rgba(245,189,69,.28);border-radius:14px;box-shadow:0 18px 45px rgba(0,0,0,.5);opacity:0;visibility:hidden;transform:translateY(-8px);transition:.2s ease;display:grid;gap:3px;z-index:100}.dropdown:hover .dropdown-menu,.dropdown.open .dropdown-menu{opacity:1;visibility:visible;transform:translateY(0)}
+.dropdown-menu a{display:block;padding:11px 13px;border-radius:9px;color:#e9e9e7}.dropdown-menu a:hover{background:rgba(245,189,69,.1);color:var(--gold)}
+.call{background:var(--gold);color:#111;padding:12px 18px;border-radius:5px;font-weight:800}
+@media(max-width:800px){.nav{position:relative}.menu{display:block}.links{display:none;position:absolute;top:100%;left:0;right:0;padding:15px 20px 20px;background:#080808;border-bottom:1px solid #222;flex-direction:column;align-items:flex-start;gap:0}.links.open{display:flex}.links>a,.dropdown{width:100%}.links>a,.dropbtn{padding:12px 0}.dropdown-menu{position:static;width:100%;margin:3px 0 7px;transform:none;display:none;opacity:1;visibility:visible;box-shadow:none}.dropdown.open .dropdown-menu{display:grid}.call{width:auto!important;padding:12px 18px!important;margin-top:6px}}
+</style>
+</head>
+<body>
+<header>
+<div class="container nav">
+<a class="logo" href="index.html">APEX <span>LOCKSMITH</span></a>
+<button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+<nav class="links" id="mainNav">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<div class="dropdown" id="servicesDropdown">
+<a class="dropbtn" href="index.html#services" aria-haspopup="true" aria-expanded="false">Services <span class="chev">▾</span></a>
+<div class="dropdown-menu">
+<a href="emergency-locksmith.html">Emergency Locksmith</a>
+<a href="residential-locksmith.html">Residential Locksmith</a>
+<a href="automotive-locksmith.html">Automotive Locksmith</a>
+<a href="commercial-locksmith.html">Commercial Locksmith</a>
+<a href="lock-rekeying.html">Lock Rekeying</a>
+<a href="safes-security-solutions.html">Safes &amp; Security Solutions</a>
+</div>
+</div>
+<a href="index.html#blog">Blog</a>
+<a href="contact.html">Contact</a>
+<a class="call" href="tel:+15552475625">Call Now</a>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+<div class="eyebrow">CONTACT APEX LOCKSMITH</div>
+<h1>We're Ready When You Need a Locksmith.</h1>
+<p>Whether you're locked out, need a lock changed, or want to improve your property's security, our mobile locksmith team is ready to help.</p>
+<div class="breadcrumb"><a href="index.html">Home</a> &nbsp; / &nbsp; <span>Contact Us</span></div>
+</div>
+</section>
+
+<section class="contact">
+<div class="container grid">
+<div>
+<div class="eyebrow">GET IN TOUCH</div>
+<h2>Need Locksmith Help?</h2>
+<p class="intro">Call us for urgent assistance or send a request using the form. We'll use your details to understand the job and help arrange the right locksmith service.</p>
+<div class="cards">
+<div class="card"><div class="icon">☎</div><small>Call Us</small><strong>+1 (555) 247-LOCK</strong></div>
+<div class="card"><div class="icon">✉</div><small>Email</small><strong>hello@apexlocksmith.com</strong></div>
+<div class="card"><div class="icon">⌖</div><small>Service Area</small><strong>Your City & Surrounding Areas</strong></div>
+<div class="card"><div class="icon">◷</div><small>Availability</small><strong>24/7 Emergency Service</strong></div>
+</div>
+<div class="emergency"><b>Locked out right now?</b><br>For the fastest response, call our emergency line directly.</div>
+</div>
+
+<form onsubmit="event.preventDefault();alert('Demo form — connect this form to your email/CRM before launch.');">
+<h3>Request a Locksmith</h3>
+<p>Tell us what you need and we'll get back to you.</p>
+<div class="fields">
+<div><label>Name</label><input required placeholder="Your name"></div>
+<div><label>Phone</label><input required type="tel" placeholder="Your phone number"></div>
+<div><label>Email</label><input type="email" placeholder="you@example.com"></div>
+<div><label>Service Needed</label><select><option>Emergency Locksmith</option><option>Residential Locksmith</option><option>Automotive Locksmith</option><option>Commercial Locksmith</option><option>Lock Rekeying</option><option>Safes & Security Solutions</option></select></div>
+<div class="full"><label>Location</label><input placeholder="City / ZIP code"></div>
+<div class="full"><label>How Can We Help?</label><textarea placeholder="Briefly describe the locksmith issue..."></textarea></div>
+</div>
+<button class="btn" type="submit">SEND REQUEST</button>
+<div class="note">For immediate emergencies, please call instead of waiting for a form response.</div>
+</form>
+</div>
+</section>
+
+<section class="mapwrap">
+<div class="container">
+<div class="map">
+<div><strong>Service Area & Directions</strong><p>Your City & surrounding areas</p><a href="https://www.google.com/maps" target="_blank">OPEN GOOGLE MAPS →</a></div>
+</div>
+</div>
+</section>
+
+<section class="cta">
+<div class="container ctain">
+<div><h3>Locked Out? Don't Wait.</h3><p>Get in touch with a locksmith when you need help.</p></div>
+<a class="ctabtn" href="tel:+15552475625">CALL NOW · +1 (555) 247-LOCK</a>
+</div>
+</section>
+
+<footer>
+<div class="container foot">
+<div><div class="logo">APEX <span>LOCKSMITH</span></div><p>Professional mobile locksmith services for homes, vehicles and businesses.</p></div>
+<div><h4>Quick Links</h4><a href="index.html">Home</a><a href="about.html">About Us</a><a href="index.html#services">Services</a><a href="index.html#reviews">Reviews</a></div>
+<div><h4>Contact</h4><p>Your City & Surrounding Areas</p><p>+1 (555) 247-LOCK</p><p>hello@apexlocksmith.com</p></div>
+</div>
+<div class="container copyright">© 2026 Apex Locksmith. All Rights Reserved.</div>
+</footer>
+<script>document.addEventListener('DOMContentLoaded',function(){const menuBtn=document.getElementById('menuBtn'),nav=document.getElementById('mainNav'),services=document.getElementById('servicesDropdown'),servicesBtn=services?services.querySelector('.dropbtn'):null;if(menuBtn&&nav)menuBtn.addEventListener('click',()=>nav.classList.toggle('open'));if(services&&servicesBtn)servicesBtn.addEventListener('click',e=>{if(window.innerWidth<=800){e.preventDefault();services.classList.toggle('open');servicesBtn.setAttribute('aria-expanded',services.classList.contains('open'))}})});</script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About Us | Apex Locksmith</title>
+<meta name="description" content="Learn about Apex Locksmith and our professional locksmith and security services.">
+<style>
+:root{--bg:#080808;--panel:#111;--gold:#d9ae47;--gold2:#f1c75e;--white:#f7f6f1;--muted:#aaa;--line:#292929}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.65}a{text-decoration:none;color:inherit}.container{width:min(1160px,92%);margin:auto}
+header{height:78px;border-bottom:1px solid #222;background:#080808;display:flex;align-items:center}.nav{display:flex;align-items:center;justify-content:space-between}.logo{font-size:24px;font-weight:900}.logo span,.eyebrow{color:var(--gold)}nav{display:flex;gap:24px;align-items:center;font-size:14px}nav a:hover{color:var(--gold)}.call{background:var(--gold);color:#111;padding:11px 17px;border-radius:4px;font-weight:900}
+.hero{padding:82px 0;background:linear-gradient(90deg,rgba(8,8,8,.98),rgba(8,8,8,.60)),url("https://images.pexels.com/photos/35287856/pexels-photo-35287856.jpeg?auto=compress&cs=tinysrgb&w=1800") center/cover}.eyebrow{text-transform:uppercase;letter-spacing:3px;font-size:12px;font-weight:900}.hero h1{font-size:clamp(44px,6vw,72px);line-height:1.02;margin:12px 0;max-width:780px}.hero p{max-width:650px;color:#c6c6c1;font-size:18px}.crumb{margin-top:24px;color:#777;font-size:13px}.crumb span{color:var(--gold)}
+section{padding:88px 0}.storygrid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.photo{min-height:510px;background:url("https://images.pexels.com/photos/35287856/pexels-photo-35287856.jpeg?auto=compress&cs=tinysrgb&w=1200") center/cover;border:1px solid #333;position:relative}.badge{position:absolute;left:24px;bottom:24px;background:#0b0b0b;padding:18px 22px;border-left:3px solid var(--gold)}.badge strong{display:block;color:var(--gold);font-size:28px}h2{font-size:43px;line-height:1.1;margin:10px 0 18px}.copy{color:var(--muted)}.checks{display:grid;gap:12px;margin-top:26px}.check{padding:15px 18px;background:var(--panel);border:1px solid var(--line)}.check b{color:var(--gold)}
+.expertise{background:#0d0d0d;border-top:1px solid #202020;border-bottom:1px solid #202020;text-align:center}.expertise h2{max-width:700px;margin-left:auto;margin-right:auto}.lead{color:var(--muted);max-width:700px;margin:auto}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:42px;text-align:left}.card{background:#111;border:1px solid var(--line);padding:25px}.num{color:var(--gold);font-weight:900}.card h3{margin:11px 0 7px}.card p{color:#888;font-size:14px}
+.valuesgrid{display:grid;grid-template-columns:1.1fr .9fr;gap:55px;align-items:center}.value{border-bottom:1px solid var(--line);padding:17px 0}.value strong{display:block;font-size:18px}.value span{color:#888;font-size:14px}.sidebox{background:var(--panel);border:1px solid var(--line);padding:35px}.sidebox h3{font-size:28px;margin-top:0}.sidebox p{color:#999}.btn{display:inline-block;background:var(--gold);color:#111;padding:14px 20px;font-weight:900;border-radius:4px}
+.cta{padding:42px 0;background:linear-gradient(100deg,#c99f3a,#f0c75e);color:#111}.ctain{display:flex;justify-content:space-between;align-items:center;gap:20px}.cta h3{font-size:30px;margin:0}.cta p{margin:4px 0}.darkbtn{background:#111;color:#fff;padding:14px 20px;border-radius:4px;font-weight:900}
+footer{background:#060606;padding:50px 0 22px;border-top:1px solid #222}.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:35px}.foot h4{margin-top:0}.foot p,.foot a{color:#888;font-size:14px}.foot a{display:block;margin:7px 0}.copyr{border-top:1px solid #1e1e1e;margin-top:30px;padding-top:18px;color:#666;font-size:12px}
+@media(max-width:850px){nav{display:none}.storygrid,.valuesgrid{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.photo{min-height:380px}.ctain{display:block}.darkbtn{display:inline-block;margin-top:15px}.foot{grid-template-columns:1fr}}@media(max-width:520px){.cards{grid-template-columns:1fr}h2{font-size:34px}}
+
+/* Homepage-matching navigation */
+.links{display:flex;gap:20px;align-items:center;font-size:13px;font-weight:800}.links a:hover{color:var(--gold)}
+.menu{display:none;background:none;border:1px solid #444;color:white;border-radius:8px;padding:8px;font-size:18px;cursor:pointer}
+.dropdown{position:relative}.dropbtn{display:flex;align-items:center;gap:5px;cursor:pointer}.chev{font-size:10px;transition:transform .2s}.dropdown:hover .chev,.dropdown.open .chev{transform:rotate(180deg)}
+.dropdown-menu{position:absolute;top:calc(100% + 20px);right:-10px;width:270px;padding:10px;background:#0d0f13;border:1px solid rgba(245,189,69,.28);border-radius:14px;box-shadow:0 18px 45px rgba(0,0,0,.5);opacity:0;visibility:hidden;transform:translateY(-8px);transition:.2s ease;display:grid;gap:3px;z-index:100}.dropdown:hover .dropdown-menu,.dropdown.open .dropdown-menu{opacity:1;visibility:visible;transform:translateY(0)}
+.dropdown-menu a{display:block;padding:11px 13px;border-radius:9px;color:#e9e9e7}.dropdown-menu a:hover{background:rgba(245,189,69,.1);color:var(--gold)}
+.call{background:var(--gold);color:#111;padding:12px 18px;border-radius:5px;font-weight:800}
+@media(max-width:800px){.nav{position:relative}.menu{display:block}.links{display:none;position:absolute;top:100%;left:0;right:0;padding:15px 20px 20px;background:#080808;border-bottom:1px solid #222;flex-direction:column;align-items:flex-start;gap:0}.links.open{display:flex}.links>a,.dropdown{width:100%}.links>a,.dropbtn{padding:12px 0}.dropdown-menu{position:static;width:100%;margin:3px 0 7px;transform:none;display:none;opacity:1;visibility:visible;box-shadow:none}.dropdown.open .dropdown-menu{display:grid}.call{width:auto!important;padding:12px 18px!important;margin-top:6px}}
+</style>
+</head>
+<body>
+<header>
+<div class="container nav">
+<a class="logo" href="index.html">APEX <span>LOCKSMITH</span></a>
+<button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+<nav class="links" id="mainNav">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<div class="dropdown" id="servicesDropdown">
+<a class="dropbtn" href="index.html#services" aria-haspopup="true" aria-expanded="false">Services <span class="chev">▾</span></a>
+<div class="dropdown-menu">
+<a href="services/emergency-locksmith.html">Emergency Locksmith</a>
+<a href="services/residential-locksmith.html">Residential Locksmith</a>
+<a href="services/automotive-locksmith.html">Automotive Locksmith</a>
+<a href="services/commercial-locksmith.html">Commercial Locksmith</a>
+<a href="services/lock-rekeying.html">Lock Rekeying</a>
+<a href="services/safes-security-solutions.html">Safes &amp; Security Solutions</a>
+</div>
+</div>
+<a href="index.html#blog">Blog</a>
+<a href="contact.html">Contact</a>
+<a class="call" href="tel:+15552475625">Call Now</a>
+</nav>
+</div>
+</header>
+
+<section class="hero"><div class="container"><div class="eyebrow">ABOUT APEX LOCKSMITH</div><h1>Professional Locksmith Help, Built Around Trust.</h1><p>Reliable locksmith and security solutions for homes, vehicles and businesses—especially when you need help without the runaround.</p><div class="crumb"><a href="index.html">Home</a> &nbsp;/&nbsp; <span>About Us</span></div></div></section>
+
+<section><div class="container storygrid"><div class="photo"><div class="badge"><strong>24/7</strong>Emergency Locksmith Support</div></div><div><div class="eyebrow">WHO WE ARE</div><h2>A Locksmith Team You Can Count On.</h2><p class="copy">At Apex Locksmith, our goal is simple: make locksmith service straightforward, professional and dependable. From an unexpected lockout to a planned security upgrade, we focus on understanding the problem and delivering the right solution.</p><p class="copy">Our mobile service brings professional tools and practical expertise to homes, vehicles and commercial properties. We believe good locksmith service starts with clear communication, careful work and respect for the customer's property.</p><div class="checks"><div class="check"><b>✓</b> Emergency, residential, automotive and commercial expertise</div><div class="check"><b>✓</b> Mobile service built around your location</div><div class="check"><b>✓</b> Clear communication and professional workmanship</div></div></div></div></section>
+
+<section class="expertise"><div class="container"><div class="eyebrow">OUR EXPERTISE</div><h2>Locksmith Expertise for Everyday Security Problems.</h2><p class="lead">From getting you back inside to improving access control, our services cover the most common residential, automotive and commercial locksmith needs.</p><div class="cards"><div class="card"><div class="num">01</div><h3>Emergency Locksmith</h3><p>Lockouts, lost keys and urgent access problems.</p></div><div class="card"><div class="num">02</div><h3>Residential Locksmith</h3><p>Home lock changes, rekeying and security improvements.</p></div><div class="card"><div class="num">03</div><h3>Automotive Locksmith</h3><p>Vehicle lock and key assistance when you are stuck.</p></div><div class="card"><div class="num">04</div><h3>Commercial Locksmith</h3><p>Business locks, access solutions and property security.</p></div></div></div></section>
+
+<section><div class="container valuesgrid"><div><div class="eyebrow">OUR APPROACH</div><h2>What You Can Expect From Us.</h2><div><div class="value"><strong>Professional Service</strong><span>Organized, respectful service focused on solving the actual locksmith problem.</span></div><div class="value"><strong>Clear Communication</strong><span>We explain the service and next steps so you know what to expect.</span></div><div class="value"><strong>Security-Minded Solutions</strong><span>Beyond restoring access, we can help identify practical security improvements.</span></div><div class="value"><strong>Customer-First Experience</strong><span>Whether the job is urgent or planned, your needs stay at the center.</span></div></div></div><div class="sidebox"><div class="eyebrow">NEED HELP NOW?</div><h3>Locked Out or Dealing With a Broken Lock?</h3><p>For immediate assistance, calling is the fastest way to reach our locksmith service.</p><a class="btn" href="tel:+15552475625">CALL NOW</a></div></div></section>
+
+<div class="cta"><div class="container ctain"><div><h3>Need a Locksmith You Can Trust?</h3><p>Tell us what you need and let's find the right solution.</p></div><a class="darkbtn" href="contact.html">CONTACT US</a></div></div>
+
+<footer><div class="container foot"><div><div class="logo">APEX <span>LOCKSMITH</span></div><p>Professional mobile locksmith services for homes, vehicles and businesses.</p></div><div><h4>Quick Links</h4><a href="index.html">Home</a><a href="about.html">About Us</a><a href="index.html#services">Services</a><a href="index.html#reviews">Reviews</a></div><div><h4>Contact</h4><p>Your City & Surrounding Areas</p><p>+1 (555) 247-LOCK</p><p>hello@apexlocksmith.com</p></div></div><div class="container copyr">© 2026 Apex Locksmith. All Rights Reserved.</div></footer>
+<script>document.addEventListener('DOMContentLoaded',function(){const menuBtn=document.getElementById('menuBtn'),nav=document.getElementById('mainNav'),services=document.getElementById('servicesDropdown'),servicesBtn=services?services.querySelector('.dropbtn'):null;if(menuBtn&&nav)menuBtn.addEventListener('click',()=>nav.classList.toggle('open'));if(services&&servicesBtn)servicesBtn.addEventListener('click',e=>{if(window.innerWidth<=800){e.preventDefault();services.classList.toggle('open');servicesBtn.setAttribute('aria-expanded',services.classList.contains('open'))}})});</script>
+</body></html>
